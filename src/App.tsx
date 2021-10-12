@@ -22,10 +22,6 @@ function App() {
     note: 'Allergic to staying on the same team'
   }]);
 
-people.map(person => {
-  person.age = 3;
-});
-
   return (
     <div className="App">
       <h1> People invited to my Party </h1>
